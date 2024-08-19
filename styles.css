@@ -45,7 +45,19 @@ body{
     font-weight: bold;
     font-size: 13px;
 }
-
+.input-box div .erro-span{
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+    font-size: 13px;
+}
+.input-box div .erro{
+    color: hsl(0, 100%, 67%);
+    font-size: 10px;
+    display: none;
+}
+.input-box div .visible{
+    display: block;
+}
 .input-box div input{
     width: 120px;
     height: 50px;
@@ -60,6 +72,9 @@ body{
 
 .input-box div input:focus{
     border: 1px solid hsl(259, 100%, 65%);
+}
+.input-box div .input-erro{
+    border: 1px solid hsl(0, 100%, 67%);
 }
 
 .submit-box{
